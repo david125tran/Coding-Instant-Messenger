@@ -1,0 +1,6 @@
+@echo off
+echo Starting backend...
+start cmd /k "cd backend && python App.py"
+
+echo Starting frontend...
+start cmd /k "cd chat-frontend && npm start"
